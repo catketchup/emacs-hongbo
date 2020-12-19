@@ -1,0 +1,2 @@
+* Installation
+  git clone --depth 1 https://github.com/catketchup/emacs-hongbo ~/.emacs.d
