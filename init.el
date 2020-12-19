@@ -57,7 +57,10 @@
 (use-package diminish)
 (use-package bind-key)
 
-;;
+;; org
+(require 'init-org)
+
+;; tools
 (require 'init-helm)
 (require 'init-auto-save)
 (require 'init-swiper)
@@ -68,3 +71,21 @@
 
 ;; shell
 (require 'init-shell)
+
+;; utils
+(require 'init-utils)
+
+;; tex
+(require 'init-tex)
+
+;; snippets
+(require 'init-yasnippet)
+
+;; equation, by Yilun
+(require 'org-elp)
+
+;; undo-tree
+(require 'init-undo-tree)
+
+;; smartparens
+(require 'init-smartparens)
