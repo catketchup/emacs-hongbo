@@ -82,4 +82,4 @@ tutorial/
 url/
 var/
 workspace/
-elpy/rpc-venv/
+elpy/rpc-venv/*
