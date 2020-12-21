@@ -52,7 +52,7 @@
   :init
   (elpy-enable)
   )
-
+(setq elpy-rpc-virtualenv-path 'system) 
 ;; (setq exec-path (append '("/home/ketchup/tools/anaconda3/bin") exec-path))
 ;; (setq python-shell-virtualenv-path "/home/ketchup/tools/anaconda3/bin/python")
 
