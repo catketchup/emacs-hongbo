@@ -18,7 +18,7 @@
  '(org-elp-split-size 40)
  '(package-selected-packages
    (quote
-    (doom-themes doom-modeline company-box elpy magit beacon undo-tree smartparens yasnippet-snippets iedit org-roam org-sidebar cdlatex auctex pdf-view-restore bongo olivetti nov youdao-dictionary shell-pop vterm xterm-color pdf-tools py-yapf projectile linum-off company-prescient swiper magic-latex-buffer ein live-py-mode hy-mode company use-package helm)))
+    (symbol-overlay doom-themes doom-modeline company-box elpy magit beacon undo-tree smartparens yasnippet-snippets iedit org-roam org-sidebar cdlatex auctex pdf-view-restore bongo olivetti nov youdao-dictionary shell-pop vterm xterm-color pdf-tools py-yapf projectile linum-off company-prescient swiper magic-latex-buffer ein live-py-mode hy-mode company use-package helm)))
  '(pdf-view-continuous nil)
  '(pdf-view-display-size 1.35)
  '(pdf-view-resize-factor 1.25)
