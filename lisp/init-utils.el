@@ -119,4 +119,9 @@
       (bongo-switch-buffers))
     (bind-key "b" #'bongo-add-dired-files dired-mode-map)))
 
+;; themes
+(use-package doom-modeline)
+;; (load-theme 'doom-city-lights)
+(load-theme 'doom-dracula)
+
 (provide 'init-utils)

@@ -31,7 +31,7 @@
 (add-hook 'LaTeX-mode-hook 'linum-mode)
 
 ;; flyspell
-(add-hook 'LaTeX-mode-hook 'flyspell-mode)
+;; (add-hook 'LaTeX-mode-hook 'flyspell-mode)
 
 (use-package cdlatex
   :hook (org-mode . turn-on-org-cdlatex))

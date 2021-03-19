@@ -89,3 +89,6 @@
 
 ;; smartparens
 (require 'init-smartparens)
+
+;; julia
+(provide 'init-julia)
