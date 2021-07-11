@@ -91,4 +91,10 @@
 (require 'init-smartparens)
 
 ;; julia
-(provide 'init-julia)
+;; (require 'init-julia)
+
+;;c/cpp
+(require 'init-cpp)
+(require 'init-helm-gtags)
+;; cython
+;; (require 'init-cython)
