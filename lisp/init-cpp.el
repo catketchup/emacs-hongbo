@@ -44,4 +44,6 @@
 (add-to-list 'company-backends 'company-c-headers)
 (add-to-list 'company-c-headers-path-system "/usr/include/c++/7.5.0/")
 
+;; by Hongbo
+;; (define-key helm-map (kbd "M-m") 'helm-semantic-or-imenu)
 (provide 'init-cpp)

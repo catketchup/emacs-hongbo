@@ -54,4 +54,6 @@
         TeX-source-correlate-start-server t)
   )
 
+;; (add-hook 'tex-mode-hook 'reftex-mode)
+;; (add-hook 'tex-mode-hook 'TeX-source-correlate-mode)
 (provide 'init-tex)
