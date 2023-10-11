@@ -98,3 +98,9 @@
 (require 'init-helm-gtags)
 ;; cython
 ;; (require 'init-cython)
+
+;; doom-modeline
+(require 'init-doom-modeline)
+
+;; isend-mode
+(require 'init-isend)

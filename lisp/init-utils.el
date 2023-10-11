@@ -121,7 +121,8 @@
 
 ;; themes
 (use-package doom-modeline)
-;; (load-theme 'doom-city-lights)
-(load-theme 'doom-dracula)
+(load-theme 'doom-acario-light)
+;;(load-theme 'doom-city-lights)
+;;(load-theme 'doom-dracula)
 
 (provide 'init-utils)

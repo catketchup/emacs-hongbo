@@ -27,7 +27,7 @@
   :hook (c-mode-common . (lambda ()
                            (c-set-style "bsd")
                            (setq tab-width 4)
-                           (setq c-basic-offset 4)))
+                           (setq c-basic-offset 2)))
   :config
   (use-package modern-cpp-font-lock
     :diminish
@@ -40,6 +40,7 @@
 
 (add-hook 'c-mode-common-hook 'irony-mode)
 (add-hook 'c-mode-common-hook 'linum-mode)
+(add-hook 'c-mode-common-hook 'which-function-mode)
 
 (add-to-list 'company-backends 'company-c-headers)
 (add-to-list 'company-c-headers-path-system "/usr/include/c++/7.5.0/")
